@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nelson Bighetti | Academic</title>
+    <title>Nelson Bighetti | David Jaggi</title>
     <link>/author/nelson-bighetti/</link>
       <atom:link href="/author/nelson-bighetti/index.xml" rel="self" type="application/rss+xml" />
     <description>Nelson Bighetti</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 David Jaggi</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/author/nelson-bighetti/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Nelson Bighetti</title>

@@ -26,46 +26,22 @@
     <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/nelson-bighetti/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/post/2020-10-31_extract_data_from_multicharts/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/david-jaggi/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
@@ -77,8 +53,8 @@
     <loc>/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
@@ -117,6 +93,8 @@
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
+  </url><url>
+    <loc>/categories/</loc>
   </url><url>
     <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
