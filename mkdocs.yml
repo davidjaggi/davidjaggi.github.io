@@ -1,5 +1,5 @@
 site_name: David Jaggi
-site_url: https://davidjaggi.github.io
+site_url: https://davidjaggi.com/
 repo_name: "GitHub"
 site_author: "David Jaggi"
 
@@ -46,6 +46,8 @@ markdown_extensions:
   # - admonition
   - toc:
       permalink: true
+
+copyright: Copyright &copy; 2021 David Jaggi
 
 plugins:
   - search

@@ -1,3 +1,8 @@
+---
+title: Extract data directly from multicharts
+description: Code snippet that can be used to extract data from multicharts.
+---
+
 The following code extracts data directly from MultiCharts. Create an indicator and insert the following code:
 
 ```
