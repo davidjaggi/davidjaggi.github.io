@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://davidjaggi.com/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://bancroftresearch.com/</loc>
+         <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://davidjaggi.com/about/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://bancroftresearch.com/about/</loc>
+         <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://davidjaggi.com/blog/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://bancroftresearch.com/blog/</loc>
+         <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://davidjaggi.com/blog/extract-data-directly-from-multicharts/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://bancroftresearch.com/disclaimer/</loc>
+         <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://davidjaggi.com/blog/my-research-workflow/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://bancroftresearch.com/blog/extract-data-directly-from-multicharts/</loc>
+         <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
