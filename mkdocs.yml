@@ -1,12 +1,13 @@
-site_name: David Jaggi
-site_url: https://davidjaggi.com/
+site_name: Bancroft Research
+site_url: https://bancroftresearch.com/
 repo_name: "GitHub"
-site_author: "David Jaggi"
+site_author: "Bancroft Research"
 
 nav:
   - Home: index.md
-  - Blog: blog.md
   - About: about.md
+  - Blog: blog.md
+  - Disclaimer: disclaimer.md
 
 theme:
     name: 'material'
@@ -47,7 +48,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
-copyright: Copyright &copy; 2021 David Jaggi
+copyright: Copyright &copy; 2022 Bancroft Research
 
 plugins:
   - search

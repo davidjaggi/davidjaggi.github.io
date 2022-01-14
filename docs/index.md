@@ -1,3 +1,3 @@
-# My Website
+# Bancroft Research
 
-Some more content will be added soon.
+
