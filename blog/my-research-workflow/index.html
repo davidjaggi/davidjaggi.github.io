@@ -6,20 +6,20 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Code snippet that can be used to extract data from multicharts.">
+        <meta name="description" content="This is an overview of my research workflow using Obsidian, Logseq and Amazing Marvin.">
       
       
         <meta name="author" content="David Jaggi">
       
       
-        <link rel="canonical" href="https://davidjaggi.com/blog/extract-data-directly-from-multicharts/">
+        <link rel="canonical" href="https://davidjaggi.com/blog/my-research-workflow/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.0, mkdocs-material-8.5.6">
     
     
       
-        <title>Extract data directly from multicharts - David Jaggi</title>
+        <title>My research workflow - David Jaggi</title>
       
     
     
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#task-management" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Extract data directly from multicharts
+              My research workflow
             
           </span>
         </div>
@@ -263,6 +268,56 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#task-management" class="md-nav__link">
+    Task Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-documentation" class="md-nav__link">
+    Project Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knowledge" class="md-nav__link">
+    Knowledge
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code" class="md-nav__link">
+    Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing" class="md-nav__link">
+    Writing
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -276,35 +331,45 @@
                   
 
 
-  <h1>Extract data directly from multicharts</h1>
+  <h1>My research workflow</h1>
 
-<p>The following code extracts data directly from MultiCharts. Create an indicator and insert the following code:</p>
-<pre><code>Inputs: 
-  iPrint(False),
-  iFileName(&quot;C:\Users\Administrator\5min.txt&quot;),
-  iPrecision(4);
-
-Variables:
-  dateInDateTimeFormat(0), 
-  timeInDateTimeFormat(0),
-  dateReadable(&quot;&quot;),
-  timeReadable(&quot;&quot;);
-
-Once begin
-      Print(File(iFileName),&quot;Date,Time,Open,High,Low,Close,Vol,OI&quot; ); 
-end ;
-
-dateInDateTimeFormat = ElDateToDateTime(Date);
-timeInDateTimeFormat = eltimetodatetime(Time);
-dateReadable = FormatDate(&quot;MM/dd/yyyy&quot;,dateInDateTimeFormat);
-timeReadable = FormatTime(&quot;HH:mm&quot;,timeInDateTimeFormat);
-if iPrint = True then
-  Print(File(iFileName),dateReadable + &quot;,&quot; + timeReadable + &quot;,&quot; + NumToStr(O,iPrecision) + &quot;,&quot;+
-    NumToStr(H,iPrecision)+&quot;,&quot;+NumToStr(L,iPrecision)+&quot;,&quot;+NumToStr(C,iPrecision)+&quot;,&quot;+
-    NumToStr(Volume,0)+&quot;,&quot;+NumToStr(OpenInt,0));
-
+<p>I want to present my research workflow, which I currently use for my projects. The whole workflow is still a work in progress and is likely to change over time. If you have any inputs, please reach out to me.</p>
+<p>The tools I use is a collection of tools for thought and serve different purposes. I like to keep everything in Markdown, so I have full control over my work.</p>
+<h2 id="task-management">Task Management<a class="headerlink" href="#task-management" title="Permanent link">&para;</a></h2>
+<p>The task management is done partially in Amazing Marvin and on the other side in Obsidian. In Amazing Marvin I create a dedicated project. This helps me to track deadlines and schedule the tasks in my day. Amazing Marvin also lets me create time blockers in my calendar and is synced with my Google Calendar.</p>
+<p>Obsidian is mainly used here for long term planning. I mainly use the Kanban board with the following categories.</p>
+<ul>
+<li>Backlog</li>
+<li>Next</li>
+<li>In progress</li>
+<li>Blocked</li>
+<li>Done</li>
+<li>Delegated</li>
+<li>Testing</li>
+</ul>
+<p>The nice thing about this setup is that each task can have a dedicated markdown page with additional information. Obsidian also lets me reference them, so it is easy to incorporate and refer to the content of a task at a later stage of the project.</p>
+<h2 id="project-documentation">Project Documentation<a class="headerlink" href="#project-documentation" title="Permanent link">&para;</a></h2>
+<p>I document my projects in Obsidian, where I have a folder for each project. I like to have a dedicated folder for each project to easily archive projects once they are finished. The folder structure follows the structure shown below.</p>
+<pre><code>Project Name
+- Description
+- Paper/
+    - Drafts (Longform)
+- Data/
+- Reference/
+- Meetings/
+- Roadmap/
+    - Roadmap Items/
 </code></pre>
-<p>Adjust the iFilename and set it to the correct path where you want to store the txt-file. iPrecision lets you decide how many decimal places the exported file should contain. The headings are “Date,Time,Open,High,Low,Close,Vol,OI” which are specially set in order to import the file into BuildAlpha. After inserting the indicator into MC set the bar time correctly and set the input iPrint to true. The file should only take a few seconds to be generated.</p>
+<h2 id="knowledge">Knowledge<a class="headerlink" href="#knowledge" title="Permanent link">&para;</a></h2>
+<p>I like to keep the general knowledge separate from my projects. My Zettelkasten lives in Logseq. Here I follow the Evergreen Note framework. For all notes which are not original thoughts, I create a keyword tag. Hence, all notes linked to <code>Python</code> like deleting columns in a data frame, would get the <code>#keyword</code> tag. Workflows that also live in Logseq get the <code>#runbook</code> tag. An example for this would be: "How to set up a python environment".</p>
+<h2 id="code">Code<a class="headerlink" href="#code" title="Permanent link">&para;</a></h2>
+<p>To store my code, I use GitHub. It allows for easy collaboration and simple versioning. It is also the most commonly used tool; hence there is a lot of information around when it comes to troubleshooting any issues. As an IDE, I mainly use VSCode with the Devcontainers and Docker to have a dedicated environment for each project.</p>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<p>For reference management, I use Zotero, which is connected to Research Rabbit. I also use Zotfile and BetterBibtex as add-ons to my Zotero.</p>
+<h2 id="writing">Writing<a class="headerlink" href="#writing" title="Permanent link">&para;</a></h2>
+<p>I have a dedicated <code>Paper</code> folder for the drafting phase that uses the Longform plugin in Obsidian. All of the initial information flow into this folder, and the initial draft is written in Markdown.</p>
+<p>For the final version, we use LaTeX via Overleaf. It is easy to collaborate in and works without any local setup.</p>
+<p>I hope this little overview helped. In the future, I plan to revisit this page and refine my workflow with additional information.</p>
 
 
 
