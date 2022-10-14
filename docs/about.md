@@ -1,3 +1,5 @@
-# Welcome to Bancroft Research
+# About me
 
-This website provides a collection of proprietary research and development of trading strategies by [Bancroft Research](https://www.bancroftresearch.com).
+Hi, my name is David.
+
+I am a PhD student at the University of Zurich and a research associate at the Zurich University of Applied Sciences. My research interests are in the intersection of machine learning, alternative data and finance.
