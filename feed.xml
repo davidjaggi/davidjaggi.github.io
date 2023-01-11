@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>David Jaggi</title>
+    <link href="https://davidjaggi.com/feed.xml" rel="self" />
+    <link href="https://davidjaggi.com" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>David</name>
+    </author>
+    <id>https://davidjaggi.com</id>
+
+</feed>
