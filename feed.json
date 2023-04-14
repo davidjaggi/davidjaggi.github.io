@@ -15,6 +15,7 @@
             "title": "OECD Env Tech: IPC to CPC Mapping",
             "summary": "The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. The aim of this project is to create a dataset that allows for a statistical mapping between&hellip;",
             "content_html": "<p>The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. \nThe aim of this project is to create a dataset that allows for a statistical mapping between the green IPC and CPC classifications based on the OECD green technologies.</p>\n<p>The contained classification can be enhanced using the Y02 classes.</p>\n<h2 id=\"oecd-environmental-technologies\">OECD Environmental Technologies</h2>\n<p>In principle, the method is based on the paper called “Measuring environmental innovation using patent data” by <a href=\"https://ideas.repec.org/p/oec/envaaa/89-en.html\">Hascic and Migotto from 2015</a>. The paper contains a table in the appendix which lists the so-called “Search Strategies for the Identification of Selected Environment-Related Technologies (ENV-TECH)”. For the corresponding tables, the corresponding IPC or CPC class is given.</p>\n<p>In a first step, I converted the table into an Excel file so that I could process it further using Python at a later stage. The Excel table can be found in the GitHub repository with the corresponding code.</p>\n<p>Also included is an XML file that allows for a <a href=\"https://www.epo.org/searching-for-patents/helpful-resources/first-time-here/classification/cpc/ipccpc.html\">statistical mapping between the IPC and CPC classifications</a>.\nFor this first iteration I used all of the available mappings. In a second step, I will try to filter out the mappings that are not relevant for the IPC classification based on a specific level.</p>\n<p>The final dataset <code>env_tech_cpc.pkl</code> contains the following columns.</p>\n<table>\n<thead>\n<tr>\n<th>Column Name</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Level 1</td>\n<td>First level of the patent search strategy</td>\n</tr>\n<tr>\n<td>Level 2</td>\n<td>Second level of the patent search strategy</td>\n</tr>\n<tr>\n<td>Level 3</td>\n<td>Third level of the patent search strategy</td>\n</tr>\n<tr>\n<td>Description</td>\n<td>Description of the technology</td>\n</tr>\n<tr>\n<td>IPC and CPC Classes</td>\n<td>Mixed classification codes</td>\n</tr>\n<tr>\n<td>Extended Classes</td>\n<td>Classes without implicit ranges</td>\n</tr>\n<tr>\n<td>Green CPC</td>\n<td>CPC mapped classes</td>\n</tr>\n</tbody></table>\n<p>Please open an issue if you have any questions or suggestions.</p>\n<p>The full code is available on <a href=\"https://github.com/davidjaggi/oecd-green-classes\">GitHub</a>.</p>\n",
+            "image": "https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg",
             "author": {
                 "name": "David"
             },
@@ -22,7 +23,7 @@
                    "patent"
             ],
             "date_published": "2023-03-17T11:24:10+01:00",
-            "date_modified": "2023-04-14T16:01:26+02:00"
+            "date_modified": "2023-04-14T16:04:54+02:00"
         }
     ]
 }

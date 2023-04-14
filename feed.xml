@@ -3,7 +3,7 @@
     <title>David Jaggi</title>
     <link href="https://davidjaggi.com/feed.xml" rel="self" />
     <link href="https://davidjaggi.com" />
-    <updated>2023-04-14T16:01:26+02:00</updated>
+    <updated>2023-04-14T16:04:54+02:00</updated>
     <author>
         <name>David</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://davidjaggi.com/ipc-to-cpc-mapping-in-python.html"/>
         <id>https://davidjaggi.com/ipc-to-cpc-mapping-in-python.html</id>
+        <media:content url="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" medium="image" />
             <category term="patent"/>
 
-        <updated>2023-04-14T16:01:26+02:00</updated>
+        <updated>2023-04-14T16:04:54+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" alt="" />
                     The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. The aim of this project is to create a dataset that allows for a statistical mapping between&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" class="type:primaryImage" alt="" /></p>
                 <p>The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. 
 The aim of this project is to create a dataset that allows for a statistical mapping between the green IPC and CPC classifications based on the OECD green technologies.</p>
 <p>The contained classification can be enhanced using the Y02 classes.</p>
