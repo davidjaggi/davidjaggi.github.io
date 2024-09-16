@@ -3,12 +3,24 @@
     <title>David Jaggi</title>
     <link href="https://davidjaggi.com/feed.xml" rel="self" />
     <link href="https://davidjaggi.com" />
-    <updated>2023-04-14T16:05:57+02:00</updated>
+    <updated>2024-09-16T15:27:29+02:00</updated>
     <author>
         <name>David</name>
     </author>
     <id>https://davidjaggi.com</id>
 
+    <entry>
+        <title>test</title>
+        <author>
+            <name>David</name>
+        </author>
+        <link href="https://davidjaggi.com/test-2.html"/>
+        <id>https://davidjaggi.com/test-2.html</id>
+
+        <updated>2024-09-16T15:27:29+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>OECD Env Tech: IPC to CPC Mapping</title>
         <author>
