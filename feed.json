@@ -10,18 +10,6 @@
     },
     "items": [
         {
-            "id": "https://davidjaggi.com/test-2.html",
-            "url": "https://davidjaggi.com/test-2.html",
-            "title": "test",
-            "author": {
-                "name": "David"
-            },
-            "tags": [
-            ],
-            "date_published": "2024-09-16T15:27:29+02:00",
-            "date_modified": "2024-09-16T15:27:29+02:00"
-        },
-        {
             "id": "https://davidjaggi.com/oecd-env-tech-ipc-to-cpc-mapping.html",
             "url": "https://davidjaggi.com/oecd-env-tech-ipc-to-cpc-mapping.html",
             "title": "OECD Env Tech: IPC to CPC Mapping",
