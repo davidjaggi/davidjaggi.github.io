@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>David Jaggi</title>
+    <link href="https://davidjaggi.com/feed.xml" rel="self" />
+    <link href="https://davidjaggi.com" />
+    <updated>2023-04-14T16:05:57+02:00</updated>
+    <author>
+        <name>David</name>
+    </author>
+    <id>https://davidjaggi.com</id>
+
+    <entry>
+        <title>OECD Env Tech: IPC to CPC Mapping</title>
+        <author>
+            <name>David</name>
+        </author>
+        <link href="https://davidjaggi.com/oecd-env-tech-ipc-to-cpc-mapping.html"/>
+        <id>https://davidjaggi.com/oecd-env-tech-ipc-to-cpc-mapping.html</id>
+        <media:content url="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" medium="image" />
+            <category term="patent"/>
+
+        <updated>2023-03-17T11:24:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" alt="" />
+                    The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. The aim of this project is to create a dataset that allows for a statistical mapping between&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://davidjaggi.com/media/posts/2/solar-panel-array-power-sun-electricity-159397.jpeg" class="type:primaryImage" alt="" /></p>
+                <p>The following article explains how the corresponding classes of IPC and CPC can be combined in order to be able to combine them with other datasets later on. 
+The aim of this project is to create a dataset that allows for a statistical mapping between the green IPC and CPC classifications based on the OECD green technologies.</p><p>The contained classification can be enhanced using the Y02 classes.</p><h2 id="oecd-environmental-technologies">OECD Environmental Technologies</h2>
+<p>In principle, the method is based on the paper called “Measuring environmental innovation using patent data” by <a href="https://ideas.repec.org/p/oec/envaaa/89-en.html">Hascic and Migotto from 2015</a>. The paper contains a table in the appendix which lists the so-called “Search Strategies for the Identification of Selected Environment-Related Technologies (ENV-TECH)”. For the corresponding tables, the corresponding IPC or CPC class is given.</p><p>In a first step, I converted the table into an Excel file so that I could process it further using Python at a later stage. The Excel table can be found in the GitHub repository with the corresponding code.</p><p>Also included is an XML file that allows for a <a href="https://www.epo.org/searching-for-patents/helpful-resources/first-time-here/classification/cpc/ipccpc.html">statistical mapping between the IPC and CPC classifications</a>.
+For this first iteration I used all of the available mappings. In a second step, I will try to filter out the mappings that are not relevant for the IPC classification based on a specific level.</p><p>The final dataset <code>env_tech_cpc.pkl</code> contains the following columns.</p><table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Level 1</td>
+<td>First level of the patent search strategy</td>
+</tr>
+<tr>
+<td>Level 2</td>
+<td>Second level of the patent search strategy</td>
+</tr>
+<tr>
+<td>Level 3</td>
+<td>Third level of the patent search strategy</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Description of the technology</td>
+</tr>
+<tr>
+<td>IPC and CPC Classes</td>
+<td>Mixed classification codes</td>
+</tr>
+<tr>
+<td>Extended Classes</td>
+<td>Classes without implicit ranges</td>
+</tr>
+<tr>
+<td>Green CPC</td>
+<td>CPC mapped classes</td>
+</tr>
+</tbody></table>
+<p>Please open an issue if you have any questions or suggestions.</p><p>The full code is available on <a href="https://github.com/davidjaggi/oecd-green-classes">GitHub</a>.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
